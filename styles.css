@@ -1,66 +1,90 @@
+/* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-}
-
-#form-container {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 300px;
-}
-
-h1 {
+    min-height: 100vh;
+    background-color: #f9f9f9;
+  }
+  
+  h1 {
     font-size: 24px;
-    margin-bottom: 10px;
-}
-
-p {
+    font-weight: bold;
+    color: #1a1a1a;
+    text-align: center;
+  }
+  
+  .description {
+    text-align: center;
     font-size: 16px;
     color: #555;
     margin-bottom: 20px;
-}
-
-form label {
-    display: block;
-    margin-bottom: 10px;
+  }
+  
+  /* Form Container */
+  .form-container {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+  }
+  
+  /* Form Styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  label {
     font-size: 14px;
-}
-
-form input {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    margin-bottom: 15px;
+    color: #333;
+    text-align: left;
+  }
+  
+  input {
+    padding: 12px 15px;
+    font-size: 14px;
     border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 14px;
-}
-
-form button {
-    width: 100%;
-    padding: 10px;
-    background-color: #007bff;
-    border: none;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  input:focus {
+    border-color: #007bff;
+  }
+  
+  /* Submit Button */
+  button {
+    background-color: #333;
     color: white;
-    font-size: 16px;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-form button:hover {
-    background-color: #0056b3;
-}
-
-#response-message {
-    margin-top: 15px;
+    border: none;
+    padding: 12px 0;
     font-size: 14px;
-}
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  /* Footer Text */
+  .footer {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #888;
+  }
+  
+  .footer span {
+    font-weight: bold;
+    color: #1a1a1a;
+  }
+  

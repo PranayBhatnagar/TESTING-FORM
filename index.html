@@ -1,32 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google Sheets Form</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Secure Your Spot</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="form-container">
-        <h1>Secure Your Spot Now</h1>
-        <p>Master essential communication skills to boost your confidence, clarity, and career success.</p>
-        <form id="google-sheets-form">
-            <label>
-                Name:
-                <input type="text" name="Name" placeholder="Your Name" required>
-            </label>
-            <label>
-                Email:
-                <input type="email" name="Email" placeholder="Your Email" required>
-            </label>
-            <label>
-                Phone Number:
-                <input type="text" name="PhoneNumber" placeholder="Your Phone Number" required>
-            </label>
-            <button type="submit">Submit</button>
-        </form>
-        <div id="response-message"></div>
-    </div>
-    <script src="script.js"></script>
+  <div class="form-container">
+    <h1>Secure your spot now</h1>
+    <p class="description">
+      Master essential communication skills to boost your confidence, clarity, and career success.
+    </p>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="Your Name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Your personal or work email" required>
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" placeholder="Your 10-digit Contact Number" required>
+
+      <button type="submit">Submit</button>
+    </form>
+    <p class="footer">
+      Reserve your spot now and start your <span>growth journey!</span>
+    </p>
+  </div>
 </body>
 </html>
