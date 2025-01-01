@@ -1,7 +1,7 @@
 document.getElementById("google-sheets-form").addEventListener("submit", async function (e) {
     e.preventDefault();
 
-    const scriptURL = "https://script.google.com/macros/s/AKfycbwdcaezgEl81OYcLylYTnlpwOjlfBbY6t4pvU2U-Fh4m_udYDZkhqdQOsraabzbj41-/exec";
+    const scriptURL = "https://script.google.com/macros/s/AKfycbzlpxOs_4B16pGFn2SfXw7WSYLXzfBm6JUgTWSVw1SSnB_70UWbmVit4Y6y9AZcNtxb/exec";
     const form = e.target;
     const formData = new FormData(form);
 
